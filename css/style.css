@@ -1,0 +1,54 @@
+
+
+body {
+    height: 75vh;
+    font-size: 24px;
+    font-family: 'Titillium Web', sans-serif;
+    background-image: linear-gradient(to right, #3e5151, #decba4);
+}
+
+h1 {
+    font-size: 48px;
+}
+
+
+.form-body {
+    background-image: linear-gradient(to right, #000428, #004e92);
+    box-shadow: -5px 2px 54px -9px #22333C;
+}
+
+.form-control {
+    box-shadow: none !important;
+    border: 1px solid #fff;
+}
+
+
+.btn-outline-info {
+    --bs-btn-hover-color: #fff;
+}
+
+.navbar {
+    box-shadow: -5px 2px 54px -9px #00092F;
+}
+
+.navbar-toggler {
+    background-color: #F0F0F0;
+    color: transparent;
+    border: solid 2px #439E8B;
+}
+
+@media screen and (max-width:576px){
+    #logout-btn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:576px){
+    h1 {
+        font-size: 32px;
+    }
+}
+
+#userNameAlert, #userEmailAlert, #userPasswordAlert {
+    font-size: 12px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+    <link rel="icon" href="images/2191544_key_lock_login_secret_secure_icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <nav
+        class="navbar navbar-expand-sm navbar-dard bg-dark"
+    >
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">SMART LOGIN</a>
+            <button
+                class="navbar-toggler d-lg-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                    <li>
+                        <a href="index.html">
+                            <button id="logout-btn"
+                            class="btn btn-outline-success my-2 my-sm-0"
+                            type="submit"
+                        >
+                        Logout
+                        </button>
+                        </a>
+                    </li>  
+                </ul>     
+            </div>
+        </div>
+    </nav>
+
+    
+        <div class="container my-5 p-5 text-center h-100 d-flex align-items-center justify-content-center">
+            <div class="form-body  m-auto w-75 text-center p-5 rounded">
+                <h1 id="welcomeMssg" class="text-info"></h1>
+            </div> 
+        </div>
+
+     
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/logOut.js"></script>
+</body>
+</html>
