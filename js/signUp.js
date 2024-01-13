@@ -18,10 +18,10 @@ function signUp(){
             userPassword: userPasswordInput.value
         }
         usersAccounts.push(accountData);
-        console.log(usersAccounts);
         localStorage.setItem('users', JSON.stringify(usersAccounts));
         accountExistMssg.classList.replace('d-block', 'd-none');
         confirmMssg.classList.replace('d-none', 'd-block');
+        location.href = "index.html";
         clearInputs();
     }
      if(isExist() == true){
