@@ -39,7 +39,7 @@ function clearInputs(){
  // Validation for name & email & password
 
 const userNameAlert =document.getElementById('userNameAlert');
-const nameRegex = /^[A-Za-z]{3,10}(\s?[A-Za-z]{3,10})?$/
+const nameRegex = /^[A-Za-z]{3,10}(\s?[A-Za-z]{3,10})?$/;
 function validUserName(){
 if(nameRegex.test(userNameInput.value) == true){
     userNameAlert.classList.replace('d-block', 'd-none');

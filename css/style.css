@@ -37,7 +37,7 @@ h1 {
     border: solid 2px #439E8B;
 }
 
-@media screen and (max-width:576px){
+@media screen and (max-width:992px){
     #logout-btn {
         width: 100%;
     }
@@ -46,6 +46,10 @@ h1 {
 @media screen and (max-width:576px){
     h1 {
         font-size: 32px;
+    }
+
+    .form-body {
+        width: 100% !important;
     }
 }
 
